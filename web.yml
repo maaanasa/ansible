@@ -20,6 +20,6 @@
     when: ansible_os_family =="RedHat"
   - name: restart
     service:
-     name: "{{webserveronRedHat}}"
+     name: "{{webserversonRedHat}}"
      state: started
     when: ansible_os_family =="RedHat"
