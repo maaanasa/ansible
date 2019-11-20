@@ -15,7 +15,7 @@
 
   - name: installing on RedHat
     yum:
-     name: "{{webserveronRedHat}}"
+     name: "{{webserversonRedHat}}"
      state: present
     when: ansible_os_family =="RedHat"
   - name: restart
