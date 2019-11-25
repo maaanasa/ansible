@@ -1,2 +1,12 @@
 ---
 # tasks file for myrole
+- include_tasks: myjavainstall.yml
+- include_tasks: myUserGroup.yml
+- include_tasks: download.yml
+- include_tasks: extract.yml
+- include_tasks: permissions.yml
+- include_tasks: tomconfigfile.yml
+- include_tasks: tomstart.yml
+    
+    
+    
