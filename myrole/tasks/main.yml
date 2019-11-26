@@ -7,6 +7,7 @@
 - include_tasks: permissions.yml
 - include_tasks: tomconfigfile.yml
 - include_tasks: tomstart.yml
+- include_tasks: manage.yml
     
     
     
