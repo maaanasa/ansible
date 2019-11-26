@@ -8,6 +8,10 @@
 - include_tasks: tomconfigfile.yml
 - include_tasks: tomstart.yml
 - include_tasks: manage.yml
+- include_tasks: tomrestart.yml
+- include_tasks: deployjavaapp.yml
+- include_tasks: tomrestart.yml
+
     
     
     
